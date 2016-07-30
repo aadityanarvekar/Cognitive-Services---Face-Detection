@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082AFC681D4D5CD20042B70C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082AFC671D4D5CD20042B70C /* AppDelegate.swift */; };
+		082AFC6A1D4D5CD20042B70C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082AFC691D4D5CD20042B70C /* ViewController.swift */; };
+		082AFC6D1D4D5CD20042B70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082AFC6B1D4D5CD20042B70C /* Main.storyboard */; };
+		082AFC6F1D4D5CD20042B70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082AFC6E1D4D5CD20042B70C /* Assets.xcassets */; };
+		082AFC721D4D5CD20042B70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082AFC701D4D5CD20042B70C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		082AFC641D4D5CD20042B70C /* Cognitive Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cognitive Services.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		082AFC671D4D5CD20042B70C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		082AFC691D4D5CD20042B70C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		082AFC6C1D4D5CD20042B70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		082AFC6E1D4D5CD20042B70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082AFC711D4D5CD20042B70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		082AFC731D4D5CD20042B70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082AFC611D4D5CD20042B70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082AFC5B1D4D5CD20042B70C = {
+			isa = PBXGroup;
+			children = (
+				082AFC661D4D5CD20042B70C /* Cognitive Services */,
+				082AFC651D4D5CD20042B70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		082AFC651D4D5CD20042B70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082AFC641D4D5CD20042B70C /* Cognitive Services.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		082AFC661D4D5CD20042B70C /* Cognitive Services */ = {
+			isa = PBXGroup;
+			children = (
+				082AFC671D4D5CD20042B70C /* AppDelegate.swift */,
+				082AFC691D4D5CD20042B70C /* ViewController.swift */,
+				082AFC6B1D4D5CD20042B70C /* Main.storyboard */,
+				082AFC6E1D4D5CD20042B70C /* Assets.xcassets */,
+				082AFC701D4D5CD20042B70C /* LaunchScreen.storyboard */,
+				082AFC731D4D5CD20042B70C /* Info.plist */,
+			);
+			path = "Cognitive Services";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		082AFC631D4D5CD20042B70C /* Cognitive Services */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082AFC761D4D5CD20042B70C /* Build configuration list for PBXNativeTarget "Cognitive Services" */;
+			buildPhases = (
+				082AFC601D4D5CD20042B70C /* Sources */,
+				082AFC611D4D5CD20042B70C /* Frameworks */,
+				082AFC621D4D5CD20042B70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cognitive Services";
+			productName = "Cognitive Services";
+			productReference = 082AFC641D4D5CD20042B70C /* Cognitive Services.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082AFC5C1D4D5CD20042B70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aaditya Narvekar";
+				TargetAttributes = {
+					082AFC631D4D5CD20042B70C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 082AFC5F1D4D5CD20042B70C /* Build configuration list for PBXProject "Cognitive Services" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 082AFC5B1D4D5CD20042B70C;
+			productRefGroup = 082AFC651D4D5CD20042B70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				082AFC631D4D5CD20042B70C /* Cognitive Services */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		082AFC621D4D5CD20042B70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082AFC721D4D5CD20042B70C /* LaunchScreen.storyboard in Resources */,
+				082AFC6F1D4D5CD20042B70C /* Assets.xcassets in Resources */,
+				082AFC6D1D4D5CD20042B70C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		082AFC601D4D5CD20042B70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082AFC6A1D4D5CD20042B70C /* ViewController.swift in Sources */,
+				082AFC681D4D5CD20042B70C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		082AFC6B1D4D5CD20042B70C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082AFC6C1D4D5CD20042B70C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		082AFC701D4D5CD20042B70C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082AFC711D4D5CD20042B70C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		082AFC741D4D5CD20042B70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		082AFC751D4D5CD20042B70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		082AFC771D4D5CD20042B70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cognitive Services/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadityanarvekar.Cognitive-Services";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		082AFC781D4D5CD20042B70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cognitive Services/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aadityanarvekar.Cognitive-Services";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082AFC5F1D4D5CD20042B70C /* Build configuration list for PBXProject "Cognitive Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082AFC741D4D5CD20042B70C /* Debug */,
+				082AFC751D4D5CD20042B70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082AFC761D4D5CD20042B70C /* Build configuration list for PBXNativeTarget "Cognitive Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082AFC771D4D5CD20042B70C /* Debug */,
+				082AFC781D4D5CD20042B70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082AFC5C1D4D5CD20042B70C /* Project object */;
+}
